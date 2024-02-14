@@ -1,0 +1,47 @@
+.App{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+
+}
+.card{
+    width: 250px;
+    max-width: 250px;
+    height: fit-content;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    justify-content:space-between;
+    text-decoration: none;
+}
+.buttons{
+    margin-top: 20px;
+    width: fill;
+    display: flex;
+    justify-content: space-around;
+}
+.login-popup{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 10px;
+    border: 3px solid green;
+    border-radius: 10px;
+}
+.login-popup input{
+    margin: 2px;
+}
+.login-popup button{
+    all: unset;
+    background-color: violet;
+    padding: 5px;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+.navbar{
+    gap: 50px;
+}
